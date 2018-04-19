@@ -1,11 +1,12 @@
 
-const id = 1373
-const name = 'Viktor'
+const n = 42
+const name = 'Dordrud'
 const list = [1, 2, 3]
-const listAny = [1, 'foo', {}, []]
-const me = { id, name }
+const listAny = [1, 'foo', {}, [], null]
 const now = new Date()
 const uniq = Symbol('uniq')
+const nothing = undefined
+const dog = { name }
 
 function sum (a, b) {
   return a + b
@@ -23,11 +24,12 @@ class User {
 }
 
 export {
-  id,
+  n,
   name,
   list,
   listAny,
-  me,
+  nothing,
+  dog,
   now,
   uniq,
   sum,
