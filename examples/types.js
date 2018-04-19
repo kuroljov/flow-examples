@@ -21,3 +21,15 @@ class User {
     return `${this.firstName} ${this.lastName}`
   }
 }
+
+export {
+  id,
+  name,
+  list,
+  listAny,
+  me,
+  now,
+  uniq,
+  sum,
+  User
+}
